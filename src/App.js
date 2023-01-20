@@ -32,6 +32,7 @@ function App(){
         if(showdiv){
             return (
                 <div>
+                    <h1 style={{textAlign:"center"}}>EMPLOYEE FEEDBACK FORM</h1>
                 <div id='flex-container'>
      {state.employees.map((value,index)=>{
       return(
